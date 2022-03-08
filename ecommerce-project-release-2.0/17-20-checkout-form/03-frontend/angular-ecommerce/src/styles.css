@@ -17,7 +17,7 @@ body{
     font-weight:400;
     font-size:16px;
     line-height:1.625;
-    color:#666;
+    color:rgb(238, 238, 238);
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale
 }
@@ -106,12 +106,12 @@ a,a:hover{
 
 .page-wrapper{
     overflow:hidden;
-    background:#e5e5e5;
+    background:#f3f3f3;
     padding-bottom:8vh
 }
 
 .page-container{
-    background:#e5e5e5;
+    background:#ffffff;
     padding-left:200px
 }
 
@@ -250,7 +250,7 @@ input.au-input.au-input-xl{
 }
 
 .total{
-    background:#205b8d;
+    background:#469e4b;
     line-height:43px;
     color:#fff;
     border-radius:30px;
@@ -262,7 +262,7 @@ input.au-input.au-input-xl{
 
 .total span{
     display:inline-block;
-    background:#fff;
+    background:rgb(230, 255, 234);
     padding:0 13px;
     color:#000;
     border-top-right-radius:20px;
@@ -566,7 +566,7 @@ input.au-input.au-input-xl{
  */
 
 .form-area{
-    background:#e5e5e5;
+    background:#deeafc;
     position:relative;
     margin-bottom:45px;
     padding:50px 20px;
@@ -576,7 +576,7 @@ input.au-input.au-input-xl{
     position:absolute;
     top:-26px;
     left:13px;
-    background:#e5e5e5;
+    background:#deeafc;
     padding:10px 20px;
     font-weight:500;
     z-index:23;
