@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { OktaAuthService } from '@okta/okta-angular';
-//import { OktaAuthModule, OktaAuthStateService, OKTA_AUTH } from '@okta/okta-angular';
-import {OktaAuth} from '@okta/okta-auth-js';
 
 @Component({
   selector: 'app-login-status',
@@ -12,7 +10,6 @@ export class LoginStatusComponent implements OnInit {
 
   isAuthenticated: boolean = false;
   userFullName: string;
-  oktaAuth: any;
 
   constructor(private oktaAuthService: OktaAuthService) { }
 
@@ -20,7 +17,6 @@ export class LoginStatusComponent implements OnInit {
 
     // Subscribe to authentication state changes
     this.oktaAuthService.$authenticationState.subscribe(
-    //  this.oktaAuth.authStateManage.subscribe{
       (result) => {
         this.isAuthenticated = result;
         this.getUserDetails();
