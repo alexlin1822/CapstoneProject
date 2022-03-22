@@ -1,0 +1,1 @@
+keytool -genkeypair -noprompt -alias luv2code -keypass secret -keystore src/main/resources/luv2code-keystore.p12 -storeType PKCS12 -storepass secret -keyalg RSA -keysize 2048 -validity 365 -dname "C=US, ST=PA, L=Philadelphia, O=luv2code, OU=Training Backend, CN=localhost" -ext "SAN=dns:localhost"
