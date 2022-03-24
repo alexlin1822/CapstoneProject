@@ -8,11 +8,4 @@ export const environment = {
   stripePublishableKey: "pk_test_51KghcBD1qZo7HdehBUpYWrABlNSYhXPrEQ8JZiGmk9XtRUInjs6e54k9disCM3HzpHqbwy1FoexREVm7yP3Z5XfD007NSku4wr"
 };
 
-/*
- * For easier debugging in development mode, you can import the following file
- * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
- *
- * This import should be commented out in production mode because it will have a negative impact
- * on performance if an error is thrown.
- */
-// import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
