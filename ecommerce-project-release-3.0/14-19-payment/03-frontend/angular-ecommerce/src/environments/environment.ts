@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   luv2shopApiUrl: "https://localhost:8443/api",
-  stripePublishableKey: "<<ADD-YOUR-STRIPE-PUBLISHABLE-KEY>>"
+  stripePublishableKey: "pk_test_51KghcBD1qZo7HdehBUpYWrABlNSYhXPrEQ8JZiGmk9XtRUInjs6e54k9disCM3HzpHqbwy1FoexREVm7yP3Z5XfD007NSku4wr"
 };
 
 /*
